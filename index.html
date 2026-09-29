@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Itz Fizz | GSAP Hero</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+  
+  <!-- GSAP & ScrollTrigger CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+  <section class="hero" id="hero">
+    <div class="hero-glow"></div>
+
+    <div class="hero-content">
+      <h1 class="headline" id="headline"></h1>
+
+      <div class="pay-zone" id="payZone">
+        <div class="money-box" id="moneyBox"></div>
+
+        <div class="hero-visual" id="heroVisual">
+          <div class="visual-card">
+            <div class="card-chip"></div>
+            <div class="card-glow"></div>
+            <div class="card-inner">
+              <span class="badge">PRO CORE</span>
+              <p class="card-title">Next-Gen Card</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-reader" id="cardReader">
+          <div class="reader-top">
+            <span class="reader-brand">SWIPE / TAP</span>
+            <div class="led-light" id="readerLed"></div>
+          </div>
+          <div class="reader-slot"></div>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-number" data-target="99.9">0%</span>
+          <p class="stat-label">System Reliability</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="4.8">0x</span>
+          <p class="stat-label">Performance Gain</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="85">0%</span>
+          <p class="stat-label">Latency Reduction</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <h2>Scroll down to complete payment scan</h2>
+    <p></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
